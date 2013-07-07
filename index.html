@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head id="clienthintpixel">
+        <title>Client hint pixel</title>
+        <style type="text/css">
+            @media (min-width: 320px) {
+                #clienthintpixel { background-image: url(clienthintpixel.gif?min-width=320px); }
+            }
+
+            @media (min-width: 480px) {
+                #clienthintpixel { background-image: url(clienthintpixel.gif?min-width=480px); }
+            }
+
+            @media (min-width: 768px) {
+                #clienthintpixel { background-image: url(clienthintpixel.gif?min-width=768px); }
+            }
+
+            @media (min-width: 1024px) {
+                #clienthintpixel { background-image: url(clienthintpixel.gif?min-width=1024px); }
+            }
+
+            @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx), (min-resolution: 144dpi) {
+                #clienthintpixel { background-image: url(clienthintpixel.gif?min-resolution=1.5dppx); }
+            }
+
+            @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx), (min-resolution: 192dpi) {
+                #clienthintpixel { background-image: url(clienthintpixel.gif?min-resolution=2dppx); }
+            }
+        </style>
+    </head>
+    <body>
+        <code>
+            @media (min-width: 320px) {
+                #clienthintpixel { background-image: url(clienthintpixel.gif?min-width=320px); }
+            }
+        </code>
+        <p>
+            Create your desired breakpoints then set the url parameter of clienthintpixel.gif?... that correspondes to the media query.
+        </p>
+    </body>
+</html>
