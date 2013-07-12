@@ -30,3 +30,11 @@ I'm looking for feedback
 ---------------
 
 Please create an issue if you know the answer to any of the questions above.
+
+Update: Adaptive-Images by Matt Wilcox
+---------------
+
+Besides the javascript cookie method he also outlines a css solution that is very, very close to what this experiement is doing. 
+He does list caveats for the css method that you can checkout out in the instructions. https://github.com/MattWilcox/Adaptive-Images/blob/master/instructions.htm
+
+See GitHub project: https://github.com/MattWilcox/Adaptive-Images
